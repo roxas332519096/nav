@@ -3,6 +3,16 @@ body {
     background-color: rgb(25, 25, 25);
 }
 
+main {
+    position: relative;
+}
+
+.wrapper {
+    position: absolute;
+    margin-top: 220px;
+    left: 25%;
+}
+
 .wrapper .row kbd {
     display: inline-block;
     border-color: rgb(0, 255, 100);
