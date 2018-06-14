@@ -1,3 +1,12 @@
+!function(){
+    var view = document.querySelector('#main');
+
+    var model = {};
+
+    var controller = {};
+    controller.init(view,model);
+}.call();
+
 // 1. 初始化数据
 var hashA = init();
 var keys = hashA['keys'];
